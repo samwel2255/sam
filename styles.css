@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 1;
+    padding: 1;
+    background-color: light blue;
+    color: blue;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.header .university-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+
+.header h1 {
+    margin: 1;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px 0;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 10px;
+    background-color:yellow;
+}
+.rsvp-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.rsvp-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.rsvp-form input,
+.rsvp-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.rsvp-form button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rsvp-form button:hover {
+    background-color: #45a049;
+}
+
+.side-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+}
+
+.content h2 {
+    color:green;
+}
+
+.content p, .content ul {
+    margin: 10px 0;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.rsvp-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color:blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.rsvp-button:hover {
+    background-color: #45a049;
+}
+
+.speaker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.speaker-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4CAF50;
+    color: #fff;
+    margin-top: 20px;
+}
+.marquee{
+    font-family:cursive;
+    background-color:dark blue;
+    colour:purple;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-icons a {
+    margin: 0 20px;
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 70px;
+.fa-square-facebook
+{  color:blue;
+}
+.fa-square-twitter
+{  color:black
+}
+.fa-square-instagram
+{  color:red;
+}
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}

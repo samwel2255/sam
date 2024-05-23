@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP for Convocation Ceremony</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="images/university-icon.png" alt="University Icon" class="university-icon">
+            <h1>RSVP for Convocation Ceremony</h1>
+        </header>
+
+        <div class="main-content">
+            <section class="content">
+                <h2>RSVP Form</h2>
+                <form action="submit_rsvp.php" method="post" class="rsvp-form">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="0" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+                    <button type="submit" class="rsvp-button">Submit RSVP</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
